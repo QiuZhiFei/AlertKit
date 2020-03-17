@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Thi Doan" => "t@thi.im" }
   s.source           = { :git => "https://github.com/AlertKit/AlertKit.git", :tag => s.version.to_s }
 
+  s.swift_versions = ['5.0']
   s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
